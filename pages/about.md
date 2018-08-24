@@ -3,7 +3,7 @@ layout: page
 title: About
 description: 瞎折腾
 keywords: qingyi, kubi
-comments: true
+comments: false
 menu: 关于
 permalink: /about/
 ---
