@@ -92,7 +92,7 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 gitalk:
-    owner: Qingyi Zhang 
+    owner: qingyizhang
     repo: comments
     clientID: e284bedd3eba2818d56e
     clientSecret: 6cbf28afff86e9bf7503b0f1a9fd189e7dbcc152
