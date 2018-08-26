@@ -11,7 +11,7 @@ permalink: /links/
 > 有用的 GitHub 项目
 
 {% for git in site.data.github %}
-* [{{ git.name }}]({{ git.url }})
+* [{{ git.description }}]({{ git.url }})
 {% endfor %}
 
 > 朋友们的链接
