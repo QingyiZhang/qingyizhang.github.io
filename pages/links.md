@@ -8,7 +8,13 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 有用的 GitHub 项目
+
+{% for git in site.data.github %}
+* [{{ git.name }}]({{ git.url }})
+{% endfor %}
+
+> 朋友们的链接
 
 {% for link in site.data.links %}
 * [{{ link.name }}]({{ link.url }})
