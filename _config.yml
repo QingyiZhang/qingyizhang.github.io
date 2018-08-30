@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://kubi.pub
+url: https://kubi.pub
 date_format: "ordinal"
 title: 爱折腾的庆庆
 subtitle: "Never stop learning"
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: Qingyi Zhang
 organization: Null
-organization_url: http://kubi.pub
+organization_url: https://kubi.pub
 github_username: qingyizhang
 location: Beijing, China
 email: qingyi1222@gmail.com
