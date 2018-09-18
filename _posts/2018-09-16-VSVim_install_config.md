@@ -16,7 +16,8 @@ keywords: VSVim, shortcuts
 1.VSVim 的安装包在巨硬的官网上有，此处不列举。下载下来后安装，提示安装包无效，通过巨硬网站看最新版本
 的 VSVim 仅支持 VS2012 以上版本，故此路不通，通过提供的 GitHub 链接找到以往的 Release 版本下载即可。
 
-2.[VSVim GitHub](https://github.com/jaredpar/VsVim), 通过 Release 页面[下载 VS2010 可用版本](https://github.com/jaredpar/VsVim/releases/download/VsVim-1.8.0.0/VsVim.vsix)
+2.[VSVim GitHub](https://github.com/jaredpar/VsVim), 通过 Release 页面[下载 VS2010 可用版本](https://github.com/jaredpar/VsVim/releases/download/VsVim-1.8.0.0/VsVim.vsix) , 
+最后一个 VS2010 可用的 VSVim 版本[下载](https://vsvim.blob.core.windows.net/drops/VsVim-2.1.1.0.vsix)
 
 3.在安装包VSVim.vsix 上右键 ‘安装’ 即可。
 

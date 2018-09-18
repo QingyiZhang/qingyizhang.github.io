@@ -80,6 +80,13 @@
     } ,
   
     {
+      "title"    : "VSVim 安装及配置",
+      "category" : "VS2010",
+      
+      "url"      : "http://localhost:4000/2018/09/16/VSVim_install_config/"
+    } ,
+  
+    {
       "title"    : "中文文案排版指北（简体中文版）",
       "category" : "Copywriting",
       
