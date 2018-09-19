@@ -33,6 +33,7 @@ keywords: VSVim, shortcuts
 
 ## VSVim 配置文件
 
+[一个配置的文档](https://fuqua.io/blog/2017/08/level-up-your-vsvim/)
     set ai
     
     "自动缩进宽度
