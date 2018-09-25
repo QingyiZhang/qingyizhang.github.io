@@ -6,4 +6,4 @@ todo
 
 ## 致谢
 
-感谢https://mazhuang.org的模板.
+感谢[码志的模板](https://mazhuang.org)
