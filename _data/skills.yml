@@ -3,7 +3,7 @@
       - C++
       - Python
 
-- name: 再用的一些库
+- name: 在用的一些库
   keywords:
       - Poco
       - Protobuf

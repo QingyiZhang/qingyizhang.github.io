@@ -4,10 +4,10 @@
 baseurl:
 url: https://kubi.pub
 date_format: "ordinal"
-title: 酷毙dot发布
+title: 庆庆的记录
 subtitle: "Never stop learning"
-description: "Qingyi's Blog"
-keywords: kubi.pub qingyi
+description: "Qingqing's Blog"
+keywords: kubi.pub
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,7 +15,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Qingyi Zhang
+author: Qingqing
 organization: none
 organization_url: https://kubi.pub
 github_username: qingyizhang
