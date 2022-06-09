@@ -2,17 +2,13 @@
 layout: page
 title: About
 description: 瞎折腾
-keywords: qingyi, kubi
+keywords: kubi
 comments: false
 menu: 关于
 permalink: /about/
 ---
 
 一名爱折腾的技术男，技术不精，慢慢学，不断学
-
-在XX环境里与互联网隔绝 再不学习必将落后
-
-多努力，必收获
 
 
 ## 联系

@@ -13,9 +13,3 @@ permalink: /links/
 {% for git in site.data.github %}
 * [{{ git.description }}]({{ git.url }})
 {% endfor %}
-
-> 朋友们的链接
-
-{% for link in site.data.links %}
-* [{{ link.name }}]({{ link.url }})
-{% endfor %}

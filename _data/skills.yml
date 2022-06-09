@@ -1,10 +1,9 @@
-- name: Software Engineer Keywords
+- name: 懂一点儿的
   keywords:
       - C++
       - Python
-      - Design Patterns
 
-- name: Technology Keywords
+- name: 再用的一些库
   keywords:
       - Poco
       - Protobuf
