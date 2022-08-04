@@ -39,3 +39,4 @@ keywords: vim, ranger, zsh, lazygit
 * 配置lazygit
     * **MAC** brew install lazygit
     * **YHKylin** 采用二进制形式安装，从github上下载相应的安装包 [安装lazygit](https://www.igiftidea.com/article/10823887226.html)
+* todo 
