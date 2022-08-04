@@ -2,7 +2,7 @@
 layout: post
 title: 开发服务器配置过程记录
 categories: [server, config]
-description:服务器配置
+description: 服务器配置
 keywords: vim, ranger, zsh, lazygit
 ---
 
