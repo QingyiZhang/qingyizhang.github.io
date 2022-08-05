@@ -26,7 +26,7 @@ keywords: vim, ranger, zsh, lazygit
     * 配置zsh
         * 配置参见 [配置oh-my-zsh](https://www.alicode.pro/blog/dev-tools/better-use-terminal-with-zsh)
         * 配置主题为: powerlevel10k, 然后按照提示进行配置
-        * 配置插件：zsh-autosuggestions、zsh-highlighting、z
+        * 配置插件：zsh-autosuggestions、zsh-highlighting、z、[thefuck](https://github.com/nvbn/thefuck)
 * 配置VIM
     * 安装vimplus [vimplus](https://github.com/chxuan/vimplus)
     * **针对YHKylin** 修改 vimplus中的install.sh 将获取系统名称中，增加 kylin 返回 CentOS
@@ -41,4 +41,5 @@ keywords: vim, ranger, zsh, lazygit
 * 配置lazygit
     * **MAC** brew install lazygit
     * **YHKylin** 采用二进制形式安装，从github上下载相应的安装包 [安装lazygit](https://www.igiftidea.com/article/10823887226.html)
-* todo 
+* 其他
+    * [命令行工具](https://blog.csdn.net/u012811805/article/details/118886814?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-118886814-blog-121925000.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-118886814-blog-121925000.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=1)
