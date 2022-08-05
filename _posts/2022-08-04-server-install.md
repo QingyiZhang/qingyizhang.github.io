@@ -36,6 +36,8 @@ keywords: vim, ranger, zsh, lazygit
     * pip-2 install ranger-fm 即可安装
     * ranger --copy-config=all 拷贝ranger配置文件
     * 安装fzf搜索神器 [fzf安装](https://www.jianshu.com/p/aeebaee1dd2b)
+    * 在ranger中配置命令直接打开lazygit等
+        * 在ranger的rc.conf中添加 map git console shell lazygit即可 前面的git代表快捷键 后面console代表在命令行中运行shell的命令lazygit
 * 配置lazygit
     * **MAC** brew install lazygit
     * **YHKylin** 采用二进制形式安装，从github上下载相应的安装包 [安装lazygit](https://www.igiftidea.com/article/10823887226.html)
