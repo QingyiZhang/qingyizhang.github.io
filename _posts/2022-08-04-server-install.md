@@ -26,7 +26,7 @@ keywords: vim, ranger, zsh, lazygit
     * 配置zsh
         * 配置参见 [配置oh-my-zsh](https://www.alicode.pro/blog/dev-tools/better-use-terminal-with-zsh)
         * 配置主题为: powerlevel10k, 然后按照提示进行配置
-        * 配置插件：zsh-autosuggestions、zsh-highlighting、z、[thefuck](https://github.com/nvbn/thefuck)
+        * 配置插件：zsh-autosuggestions、zsh-highlighting、z、vi-mode
 * 配置VIM
     * 安装vimplus [vimplus](https://github.com/chxuan/vimplus)
     * **针对YHKylin** 修改 vimplus中的install.sh 将获取系统名称中，增加 kylin 返回 CentOS
