@@ -16,7 +16,7 @@ mkdir ~/.qyconfig
 git init --bare ~/.qyconfig
 ```
 
-1. 创建git命令别名
+2. 创建git命令别名
 
 直接在家目录运行git命令肯定是不行的，因为家目录不是一个 git repo，不包含 .git 文件夹。所以甚至命令别名如下：
 
@@ -26,7 +26,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.qyconfig/ --work-tree=$HOME'
 
 将别名写入.zshrc中，后续shell中都可以使用。config status 查看是否生效。
 
-1. 使用.gitignore文件
+3. 使用.gitignore文件
 
 在home目录下创建.gitignore文件
 ```
@@ -42,4 +42,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.qyconfig/ --work-tree=$HOME'
 #---[ ignore list ]---
 ```
 
-1. 后续使用config (git)操作即可
+4. 后续使用config (git)操作即可
