@@ -30,7 +30,9 @@ keywords: vim, ranger, zsh, lazygit
 * 配置VIM
     * 安装vimplus [vimplus](https://github.com/chxuan/vimplus)
     * **针对YHKylin** 修改 vimplus中的install.sh 将获取系统名称中，增加 kylin 返回 CentOS
-    * 解决vim启动后报 ycmd server shutdown的问题: 在 .vim/plugged/YouCompleteMe下运行python install.py即可
+    * 解决vim启动后报 ycmd server shutdown的问题
+        * **Linux** 在 .vim/plugged/YouCompleteMe下运行python install.py即可
+        * **Mac** 运行python install.py --clang-completer
     * 配置markdown快捷键，按照B站TheCW推荐搭建[视频](https://www.bilibili.com/video/BV1ox411R7bo?spm_id_from=333.999.0.0)
         * [markdown 快捷键配置](https://zhuanlan.zhihu.com/p/103521513)
 

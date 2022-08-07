@@ -7,6 +7,7 @@ keywords: git, config
 ---
 
 # 使用Git管理配置文件
+
 1. 新建bare仓库
     
 在$HOME文件夹下新建一个文件夹用来存放 git 版本树。然后初始化为 bare 仓库。
