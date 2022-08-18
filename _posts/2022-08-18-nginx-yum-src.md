@@ -25,3 +25,13 @@ server {
  }
 ```
 
+远程机器设置更新源采用http地址：
+```
+[ks10-adv-os-local]
+name=Kylin Linux Advanced Server 10 - os
+baseurl=http://192.168.100.15
+gpgcheck=0
+enabled=1
+priority=1
+```
+
