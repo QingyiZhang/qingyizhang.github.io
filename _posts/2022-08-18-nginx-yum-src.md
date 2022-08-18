@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 配置Ngnix作为银河麒麟的源
+title: 配置Ngnix为银河麒麟的源
 categories: [ngnix, kylin]
 description: using ngnix as a http kylin resp
 keywords: ngnix, kylin
 ---
 
-## 配置ngnix作为银河麒麟的更新源
+## 配置ngnix为银河麒麟的更新源
 
 * 安装ngnix
     * 通过源码、rpm包或yum install ngnix安装即可
@@ -25,4 +25,3 @@ server {
  }
 ```
 
-<++>
