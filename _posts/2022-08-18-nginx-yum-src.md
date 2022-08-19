@@ -25,6 +25,8 @@ server {
  }
 ```
 
+**关闭服务器机器的防火墙** systemctl disable firewalld
+
 远程机器设置更新源采用http地址：
 ```
 [ks10-adv-os-local]
