@@ -40,10 +40,10 @@ reposync
 
 ## 创建本地yum仓库
 * 为本地仓库，生成新的repo文件
+
 ```
 cd ~/kylin_repo/base
 createrepo ./
-
 ```
 ## 其他
 **对于其他平台，如arm等，只需要将url中的最后平台修改为对应平台即可** 
