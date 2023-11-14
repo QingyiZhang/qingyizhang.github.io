@@ -35,4 +35,18 @@ cp Packages.gz ./archives
 tar -zcvf offline-apt-packages.tar.gz offline-packages
 ```
 
-<++>
+**打包的库记录** 
+* vim
+* python3.8
+* python-dev
+* python3-dev
+* gcc
+* g++
+* git
+* cmake
+* zsh
+* lib32stdc++6
+
+**其他源码** 
+* lazygit
+* ranger
