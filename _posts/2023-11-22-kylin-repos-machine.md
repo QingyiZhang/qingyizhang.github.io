@@ -12,12 +12,14 @@ keywords: yun, kylin, offline
 ### 配置步骤
 * 全新安装麒麟V10 Server SP2机器
 * 修改yum配置，支持yum安装软件进行缓存，用于后面制作离线包
+
 ```shell
 sudo vim /etc/dnf/dfn.conf
 cachedir=/home/yum/$basearch/$releasever
 keepcache=1
 ```
 * 制作离线源
+
 ```shell
 # 安装工具
 sudo yum install createrepo
@@ -32,6 +34,7 @@ tar -zcvf yum.tar.gz yum
 解压后，放到一个目录下，一下具体的目录示意
   * 将原来系统带的配置源清空
   * 新建一个源配置
+
 ```shell
 sudo vim /etc/yum.repos.d/test.repo
 
@@ -48,6 +51,7 @@ gpgcheck=0
 enabled=1
 proxy=_none_
 ```
+
 ```shell
 sudo yum clean all
 sudo yum repolist
@@ -61,11 +65,39 @@ sudo yum update
 ```
 按照提示，对系统进行更新
 
+  * 编译gcc 8.5.0版本
+```shell
+sudo yum install bzip2 wget gcc gcc-c++ gmp-devel mpfr-devel libmpc-devel make
+./contrib/download_prerequirements
+```
+  * 可直接采用编译好的gcc 8.5.0版本
+```
+rsync -r src dest
+# 对于编译python时报一个-V的错，是由于在liblto_plugin.so 在 /usr/libexec/gcc/x86_64-pc-linux-gnu/8.5.0下没有，直接采用ln -s软连接一个即可
+```
+
+  * 安装pyenv，用于管理多环境
+```shell
+vim ~/.bashrc
+export PYENV_HOME="~/.pyenv"
+export PATH="$PYENV_HOME/bin:$PATH"
+eval "$(pyenv init -)"
+```
+  * 手动安装python3 
+```shell
+ln -s /usr/local/python3/* ~/.pyenv/version/3.9
+```
+  * 编译vim 9.0
+
+  * 安装vimplus，将plugged进行解压后，修改YouCompleteMe/third_party/ycmd/cpp/CMakeLists.txt，将其中下载absl的部分注释掉
+  * 安装clangd
 <++>
 
+<++>
 
 * 编译python3.9
 ```shell
+yum -y install wget xz tar gcc make tk-devel    sqlite-devel zlib-devel readline-devel openssl-devel curl-devel tk-devel gdbm-devel  xz-devel  bzip2-devel
 ./configure --enable-shared --enable-optimizations --prefix=/usr/local/python3
 make -j10
 sudo make altinstall
