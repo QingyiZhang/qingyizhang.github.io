@@ -12,11 +12,11 @@ keywords: yun, kylin, offline
 ### 配置步骤
 * 全新安装麒麟V10 Server SP2机器
 * 修改yum配置，支持yum安装软件进行缓存，用于后面制作离线包
+
 ```shell
 sudo vim /etc/dnf/dfn.conf
 cachedir=/home/yum/$basearch/$releasever
 keepcache=1
-
 ```
 
 * 编译python3.9
