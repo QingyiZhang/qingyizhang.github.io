@@ -26,6 +26,7 @@ sudo make altinstall
 ```
 
 * 建立软连接
+
 ```shell
 sudo ln -s /usr/local/python3/bin/python3.9 /usr/bin/python39
 sudo ln -s /usr/local/python3/bin/pip3.9 /usr/bin/pip3
