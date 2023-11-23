@@ -14,12 +14,13 @@ keywords: yun, kylin, offline
 * 修改yum配置，支持yum安装软件进行缓存，用于后面制作离线包
 ```shell
 sudo vim /etc/dnf/dfn.conf
-
 cachedir=/home/yum/$basearch/$releasever
 keepcache=1
+
 ```
 
 * 编译python3.9
+
 ```shell
 ./configure --enable-shared --enable-optimizations --prefix=/usr/local/python3
 make -j10
