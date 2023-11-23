@@ -18,6 +18,55 @@ sudo vim /etc/dnf/dfn.conf
 cachedir=/home/yum/$basearch/$releasever
 keepcache=1
 ```
+* 制作离线源
+
+```shell
+# 安装工具
+sudo yum install createrepo
+# 制作离线
+sudo createrepo yum/x86_64/10/ks10-adv-os-029d9cf182e8eb8b/packages/
+sudo createrepo yum/x86_64/10/ks10-adv-updates-857d09ecb846ac4a/packages/
+# 压缩
+tar -zcvf yum.tar.gz yum
+```
+* 配置使用离线源
+
+解压后，放到一个目录下，一下具体的目录示意
+  * 将原来系统带的配置源清空
+  * 新建一个源配置
+```shell
+sudo vim /etc/yum.repos.d/test.repo
+
+[localhost-base]
+name=localhost-base
+baseurl=file:////home/test/resp/yum/x86_64/10/ks10-adv-os-029d9cf182e8eb8b/packages
+gpgcheck=0
+enabled=1
+proxy=_none_
+[localhost-update]
+name=localhost-update
+baseurl=file:///home/test/resp/yum/x86_64/10/ks10-adv-updates-857d09ecb846ac4a/packages
+gpgcheck=0
+enabled=1
+proxy=_none_
+```
+
+```shell
+sudo yum clean all
+sudo yum repolist
+```
+
+即可使用yum install 进行安装
+
+* 在新的离线的系统上进行部署
+
+```shell
+sudo yum update
+```
+按照提示，对系统进行更新
+
+<++>
+
 
 * 编译python3.9
 
